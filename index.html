@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Tareas iniciales by alu0100724622</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Tareas iniciales</h1>
+        <p></p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/alu0100724622/tareas_iniciales" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/alu0100724622/tareas_iniciales/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/alu0100724622/tareas_iniciales/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h2>
+<a name="sistemas-y-tecnolog%C3%8Das-web-tareas-iniciales" class="anchor" href="#sistemas-y-tecnolog%C3%8Das-web-tareas-iniciales"><span class="octicon octicon-link"></span></a>SISTEMAS Y TECNOLOGÍAS WEB: Tareas Iniciales</h2>
+
+<p><strong>Autora:</strong> Noelia Rodríguez Martín</p>
+
+<p><strong>Fecha:</strong> 18 de septiembre de 2014</p>
+
+<p><strong>Details:</strong> Instalamos rvm, las gemas sinatra y twitter, también git, creamos una cuenta en github, creamos un tutorial en formato Markdown y 
+generamos un HTML de Markdown con kramdown.</p>
+
+<h3>
+<a name="instalaci%C3%B3n-de-ruby" class="anchor" href="#instalaci%C3%B3n-de-ruby"><span class="octicon octicon-link"></span></a>Instalación de Ruby</h3>
+
+<p>Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos.</p>
+
+<p>En primer lugar instalamos ruby, ya lo había instalado el año pasado por lo que no tuve ningún problema, para ello utilizamos el siguiente 
+comando: </p>
+
+<p><code>sudo apt-get install ruby</code></p>
+
+<p><img src="imag/ruby.png?raw=true" alt="Instalando ruby" title="Instalando ruby"></p>
+
+<h3>
+<a name="instalaci%C3%B3n-de-rvm" class="anchor" href="#instalaci%C3%B3n-de-rvm"><span class="octicon octicon-link"></span></a>Instalación de rvm</h3>
+
+<p>Rvm es una herramienta que permite instalar fácilmente, gestionar y trabajar con múltiples entornos de Ruby.</p>
+
+<p>Para instalar rvm previamente necesito tener instalado 'curl' y en mi caso no lo tengo, por lo que lo instalamos: </p>
+
+<p><code>sudo apt-get install curl</code> </p>
+
+<p><img src="imag/curl.png?raw=true" alt="Instalando curl" title="Instalando curl"></p>
+
+<p>Y una vez que ya disponemos de esta herramienta ya podemos instalar rvm: </p>
+
+<p><code>\curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby</code></p>
+
+<p><img src="imag/rvm.png?raw=true" alt="Instalando rvm" title="Instalando rvm"></p>
+
+<p><strong>NOTA:</strong> debemos cerciorarnos que el usuario no es administrador ni tampoco root. </p>
+
+<p>A continuación vamos al fichero '~/.bash_profile' y añadimos la siguiente línea sin borrar nada de lo que ya teniamos: </p>
+
+<p><code>source #HOME/.rvm/scripts/rvm</code></p>
+
+<p>Esto es importante hacerlo para que el rvm se ejecute cada vez que enciendes la máquina, porque si no lo ponemos no se ejecuta al reiniciar.</p>
+
+<p><img src="imag/bash_profile.png?raw=true" alt="Modificando bash_profile" title="Modificando bash_profile"></p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-bundler" class="anchor" href="#instalaci%C3%B3n-de-bundler"><span class="octicon octicon-link"></span></a>Instalación de Bundler</h2>
+
+<p>Bundler permite instalar diferentes gemas para un proyecto ruby, que las especificamos dentro de un fichero Gemfile.</p>
+
+<p>En primer lugar instalamos bundler con el siguiente comando: </p>
+
+<p><code>sudo gem install bundler</code></p>
+
+<p><img src="imag/bundler.png?raw=true" alt="Instalando bundler" title="Instalando bundler"></p>
+
+<p>Y luego podemos comprobar que bundler funciona con un proyecto, utilizaremos un proyecto del año pasado.</p>
+
+<p><img src="imag/comp_bundler.png?raw=true" alt="Comprobando bundler" title="Comprobando bundler"></p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-sinatra" class="anchor" href="#instalaci%C3%B3n-de-sinatra"><span class="octicon octicon-link"></span></a>Instalación de Sinatra</h2>
+
+<p>Sinatra es un framework para aplicaciones web de software libre y código abierto, y lenguaje específico del dominio escrito en Ruby.</p>
+
+<p>Para instalar dicha gema nos basta solo con poner: </p>
+
+<p><code>sudo gem install sinatra</code></p>
+
+<p><img src="imag/sinatra.png?raw=true" alt="Instalando gema Sinatra" title="Instalando gema Sinatra"></p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-twitter" class="anchor" href="#instalaci%C3%B3n-de-twitter"><span class="octicon octicon-link"></span></a>Instalación de Twitter</h2>
+
+<p>Twitter es un servicio de microblogging.</p>
+
+<p>Y con Twitter es igual que en el caso anterior pero cambiando dicho nombre: </p>
+
+<p><code>sudo gem install twitter</code></p>
+
+<p><img src="imag/twitter.png?raw=true" alt="Instalando gema Twitter" title="Instalando gema Twitter"></p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-git" class="anchor" href="#instalaci%C3%B3n-de-git"><span class="octicon octicon-link"></span></a>Instalación de Git</h2>
+
+<p>Git es un controlador de versiones de nuestros directorios de trabajo, y es muy sencillo instalarlo para ello ejecutamos el siguiente
+comando: </p>
+
+<p><code>sudo apt-get install git</code></p>
+
+<p><img src="imag/git.png?raw=true" alt="Instalando git" title="Instalando gema git"></p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/alu0100724622">alu0100724622</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
