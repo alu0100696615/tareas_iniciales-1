@@ -1,26 +1,26 @@
-##SISTEMAS Y TECNOLOG虯S WEB: Tareas Iniciales
+##SISTEMAS Y TECNOLOG脥AS WEB: Tareas Iniciales
 
-**Autora:** Noelia Rodr韌uez Mart韓
+**Autora:** Noelia Rodr铆guez Mart铆n
 
 **Fecha:** 18 de septiembre de 2014
 
-**Details:** Instalamos rvm, las gemas sinatra y twitter, tambi閚 git, creamos una cuenta en github, creamos un tutorial en formato Markdown y 
+**Details:** Instalamos rvm, las gemas sinatra y twitter, tambi茅n git, creamos una cuenta en github, creamos un tutorial en formato Markdown y 
 generamos un HTML de Markdown con kramdown.
 
-###Instalaci髇 de Ruby
+###Instalaci贸n de Ruby
 
-Ruby es un lenguaje de programaci髇 interpretado, reflexivo y orientado a objetos.
+Ruby es un lenguaje de programaci贸n interpretado, reflexivo y orientado a objetos.
 
-En primer lugar instalamos ruby, ya lo hab韆 instalado el a駉 pasado por lo que no tuve ning鷑 problema, para ello utilizamos el siguiente 
+En primer lugar instalamos ruby, ya lo hab铆a instalado el a帽o pasado por lo que no tuve ning煤n problema, para ello utilizamos el siguiente 
 comando: 
 
 `sudo apt-get install ruby`
 
-![Instalando ruby](imag/ruby.png?raw=true "Instalando ruby")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/ruby.png)
 
-###Instalaci髇 de rvm
+###Instalaci贸n de rvm
 
-Rvm es una herramienta que permite instalar f醕ilmente, gestionar y trabajar con m鷏tiples entornos de Ruby.
+Rvm es una herramienta que permite instalar f谩cilmente, gestionar y trabajar con m煤ltiples entornos de Ruby.
 
 Para instalar rvm previamente necesito tener instalado 'curl' y en mi caso no lo tengo, por lo que lo instalamos: 
 
@@ -36,15 +36,15 @@ Y una vez que ya disponemos de esta herramienta ya podemos instalar rvm:
 								
 **NOTA:** debemos cerciorarnos que el usuario no es administrador ni tampoco root. 
 
-A continuaci髇 vamos al fichero '~/.bash_profile' y a馻dimos la siguiente l韓ea sin borrar nada de lo que ya teniamos: 
+A continuaci贸n vamos al fichero '~/.bash_profile' y a帽adimos la siguiente l铆nea sin borrar nada de lo que ya teniamos: 
 
 `source #HOME/.rvm/scripts/rvm`
 
-Esto es importante hacerlo para que el rvm se ejecute cada vez que enciendes la m醧uina, porque si no lo ponemos no se ejecuta al reiniciar.
+Esto es importante hacerlo para que el rvm se ejecute cada vez que enciendes la m谩quina, porque si no lo ponemos no se ejecuta al reiniciar.
 
 ![Modificando bash_profile](imag/bash_profile.png?raw=true "Modificando bash_profile")
 								
-##Instalaci髇 de Bundler
+##Instalaci贸n de Bundler
 
 Bundler permite instalar diferentes gemas para un proyecto ruby, que las especificamos dentro de un fichero Gemfile.
 
@@ -54,13 +54,13 @@ En primer lugar instalamos bundler con el siguiente comando:
 
 ![Instalando bundler](imag/bundler.png?raw=true "Instalando bundler")
 								
-Y luego podemos comprobar que bundler funciona con un proyecto, utilizaremos un proyecto del a駉 pasado.
+Y luego podemos comprobar que bundler funciona con un proyecto, utilizaremos un proyecto del a帽o pasado.
 
 ![Comprobando bundler](imag/comp_bundler.png?raw=true "Comprobando bundler")
 								
-##Instalaci髇 de Sinatra
+##Instalaci贸n de Sinatra
 
-Sinatra es un framework para aplicaciones web de software libre y c骴igo abierto, y lenguaje espec韋ico del dominio escrito en Ruby.
+Sinatra es un framework para aplicaciones web de software libre y c贸digo abierto, y lenguaje espec铆fico del dominio escrito en Ruby.
 
 Para instalar dicha gema nos basta solo con poner: 
 
@@ -68,7 +68,7 @@ Para instalar dicha gema nos basta solo con poner:
 
 ![Instalando gema Sinatra](imag/sinatra.png?raw=true "Instalando gema Sinatra")
 
-##Instalaci髇 de Twitter
+##Instalaci贸n de Twitter
 
 Twitter es un servicio de microblogging.
 
@@ -78,7 +78,7 @@ Y con Twitter es igual que en el caso anterior pero cambiando dicho nombre:
 
 ![Instalando gema Twitter](imag/twitter.png?raw=true "Instalando gema Twitter")
 
-##Instalaci髇 de Git
+##Instalaci贸n de Git
 
 Git es un controlador de versiones de nuestros directorios de trabajo, y es muy sencillo instalarlo para ello ejecutamos el siguiente
 comando: 
