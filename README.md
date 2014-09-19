@@ -26,13 +26,13 @@ Para instalar rvm previamente necesito tener instalado 'curl' y en mi caso no lo
 
 `sudo apt-get install curl` 
 
-![Instalando curl](imag/curl.png?raw=true "Instalando curl")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/curl.png)
 
 Y una vez que ya disponemos de esta herramienta ya podemos instalar rvm: 
 
 `\curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby`
 
-![Instalando rvm](imag/rvm.png?raw=true "Instalando rvm")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/rvm.png)
 								
 **NOTA:** debemos cerciorarnos que el usuario no es administrador ni tampoco root. 
 
@@ -42,7 +42,7 @@ A continuación vamos al fichero '~/.bash_profile' y añadimos la siguiente lín
 
 Esto es importante hacerlo para que el rvm se ejecute cada vez que enciendes la máquina, porque si no lo ponemos no se ejecuta al reiniciar.
 
-![Modificando bash_profile](imag/bash_profile.png?raw=true "Modificando bash_profile")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/bash_profile.png)
 								
 ##Instalación de Bundler
 
@@ -52,11 +52,11 @@ En primer lugar instalamos bundler con el siguiente comando:
 
 `sudo gem install bundler`
 
-![Instalando bundler](imag/bundler.png?raw=true "Instalando bundler")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/bundler.png)
 								
 Y luego podemos comprobar que bundler funciona con un proyecto, utilizaremos un proyecto del año pasado.
 
-![Comprobando bundler](imag/comp_bundler.png?raw=true "Comprobando bundler")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/comp_bundler.png)
 								
 ##Instalación de Sinatra
 
@@ -66,7 +66,7 @@ Para instalar dicha gema nos basta solo con poner:
 
 `sudo gem install sinatra`
 
-![Instalando gema Sinatra](imag/sinatra.png?raw=true "Instalando gema Sinatra")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/sinatra.png)
 
 ##Instalación de Twitter
 
@@ -76,7 +76,7 @@ Y con Twitter es igual que en el caso anterior pero cambiando dicho nombre:
 
 `sudo gem install twitter`
 
-![Instalando gema Twitter](imag/twitter.png?raw=true "Instalando gema Twitter")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/twitter.png)
 
 ##Instalación de Git
 
@@ -85,4 +85,4 @@ comando:
 
 `sudo apt-get install git`
 
-![Instalando git](imag/git.png?raw=true "Instalando gema git")
+![Alt text](https://raw.githubusercontent.com/alu0100724622/tareas_iniciales/master/imag/git.png)
